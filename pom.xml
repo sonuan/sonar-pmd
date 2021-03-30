@@ -27,7 +27,7 @@
     <version>52</version>
   </parent>
 
-  <groupId>org.sonarsource.pmd</groupId>
+  <groupId>hb.pmd</groupId>
   <artifactId>sonar-pmd</artifactId>
   <version>3.3.1</version>
   <name>SonarQube PMD Project</name>
