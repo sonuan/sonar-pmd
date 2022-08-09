@@ -1,0 +1,33 @@
+<p>Activity/Fragment中的生命周期方法请有序排列，切勿在中间插入别的代码。</p>
+<h2>Description:</h2>
+<pre>
+
+建议生命周期如下排列，且勿在中间插入别的代码。
+
+public class MyActivity extent BaseActivity {
+
+    public void onCreate() {}
+
+    public void initCreate() {}
+
+    public void initConfig() {}
+
+    public void initViews() {}
+
+    public void initData() {}
+
+    public void initCompleted() {}
+
+    public void onRestart() {}
+
+    public void onStart() {}
+
+    public void onResume() {}
+
+    public void onPause() {}
+
+    public void onStop() {}
+
+    public void onDestroy() {}
+}
+</pre>

@@ -23,7 +23,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonarsource.pmd</groupId>
   <artifactId>sonar-pmd</artifactId>
-  <version>3.4.1-SNAPSHOT</version>
+  <version>HB-3.4.1-SNAPSHOT</version>
   <name>SonarQube PMD Project</name>
   <packaging>pom</packaging>
 
@@ -65,9 +65,15 @@
   </developers>
 
   <distributionManagement>
+<!--    <repository>-->
+<!--      <id>sonatype-nexus</id>-->
+<!--      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--    </repository>-->
     <repository>
-      <id>sonatype-nexus</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <!-- 与settings.xml中的 server 里的id要一致 -->
+      <id>nexus-releases</id>
+      <name>HB Repository</name>
+      <url>http://android.internal.taqu.cn:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>sonatype-nexus</id>
