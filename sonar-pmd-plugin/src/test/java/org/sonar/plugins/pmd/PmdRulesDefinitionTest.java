@@ -44,7 +44,8 @@ class PmdRulesDefinitionTest {
         assertThat(repository.language()).isEqualTo(PmdConstants.LANGUAGE_KEY);
 
         List<Rule> rules = repository.rules();
-        assertThat(rules).hasSize(268);
+        // pmd:268个 + 阿里 + 海豹自建
+        assertThat(rules).hasSize(328);
 
         for (Rule rule : rules) {
             assertThat(rule.key()).isNotNull();

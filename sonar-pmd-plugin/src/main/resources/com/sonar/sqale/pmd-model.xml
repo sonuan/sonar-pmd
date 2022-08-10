@@ -4792,21 +4792,7 @@
 
       <chc>
         <rule-repo>pmd</rule-repo>
-        <rule-key>ActivityShouldExtendsBaseActivityRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
-
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>FragmentShouldExtendsBaseFragmentRule</rule-key>
+        <rule-key>TouchShouldExtendsBaseRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>

@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.sonarsource.pmd</groupId>
     <artifactId>sonar-pmd</artifactId>
-    <version>HB-3.4.1-SNAPSHOT</version>
+    <version>HB-p3c-3.4.1-SNAPSHOT-01</version>
   </parent>
 
   <artifactId>sonar-pmd-plugin</artifactId>
@@ -51,7 +51,7 @@
     <dependency>
       <groupId>hb</groupId>
       <artifactId>p3c-pmd</artifactId>
-      <version>2.1.1-01</version>
+      <version>2.1.1-05</version>
     </dependency>
     <dependency>
       <groupId>org.sonarsource.sonarqube</groupId>
